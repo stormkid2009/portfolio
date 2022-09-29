@@ -4,6 +4,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import HeaderContainer from '../components/header/container'
 import MainContainer from '../components/main/container'
+import FooterContainer from '../components/footer/container'
 
 const Home: NextPage = () => {
   return (
@@ -15,6 +16,7 @@ const Home: NextPage = () => {
       </Head>
       <HeaderContainer />
       <MainContainer />
+      <FooterContainer />
     </div>
   )
 }
