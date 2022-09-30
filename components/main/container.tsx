@@ -8,7 +8,7 @@ import AboutContainer from './about/container'
 
 function MainContainer() {
   return (
-    <div className='bg-pyramids-img bg-auto h-full w-full my-4 flex-col items-center p-4'>
+    <div className=' h-full w-full my-4 flex-col items-center p-4'>
         
         <AboutContainer />
         <ContentContainer />

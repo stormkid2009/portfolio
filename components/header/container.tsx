@@ -4,7 +4,7 @@ import Avatar from './avatar'
 import Navbar from './navbar'
 function HeaderContainer() {
   return (
-    <div className='bg-slate-500 text-white  w-full h-full rounded-b-3xl flex flex-wrap justify-left'>
+    <div className='bg-slate-500 text-white  w-3/4 h-full rounded-b-3xl flex flex-wrap justify-left '>
         <Avatar />
         <Navbar />
     </div>

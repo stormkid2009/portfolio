@@ -5,7 +5,7 @@ import CopyRightsContainer from './copyrights/container'
 
 function FooterContainer() {
   return (
-    <div className='bg-slate-500 text-white flex justify-between m-4 p-4 rounded-3xl'>
+    <div className='bg-slate-500 text-white flex justify-between m-4 p-4 rounded-3xl w-1/2'>
       <CopyRightsContainer />
       <ContactsContainer />
     </div>

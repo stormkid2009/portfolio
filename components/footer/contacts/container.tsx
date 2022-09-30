@@ -7,7 +7,7 @@ import Twitter from './twitter'
 
 function ContactsContainer() {
   return (
-    <div className='flex justify-around p-2 m-2'>
+    <div className='flex flex-wrap justify-around p-2 m-2'>
       <Email />
       <GitHub />
       <LinkedIn />

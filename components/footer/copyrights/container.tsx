@@ -3,7 +3,7 @@ import "tailwindcss/tailwind.css"
 
 function CopyRightsContainer() {
   return (
-    <div className="text-center p-2 ">
+    <div className="text-center p-6 ">
       <span>Anwar Ahmed © 2022  </span>
     </div>
   )
