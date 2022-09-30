@@ -1,9 +1,16 @@
 import React from 'react'
 import "tailwindcss/tailwind.css"
+import Link from 'next/link'
 
 function Email() {
   return (
-    <div>Email</div>
+    <div className='p-2 m-2'>
+      <Link href="#">
+      <a >
+      <span>Email</span>
+      </a>
+      </Link>
+    </div>
   )
 }
 
