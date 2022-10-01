@@ -10,6 +10,7 @@ module.exports = {
       backgroundImage: theme => ({
                 'hero-img': "url('/sherif.jpg')",
                 'pyramids-img': "url('/pyramids.png')",
+                'space-img': "url('/space.jpg')",
                 })
     },
   },

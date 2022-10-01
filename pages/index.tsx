@@ -10,7 +10,7 @@ import FooterContainer from '../components/footer/container'
 // {styles.container}
 const Home: NextPage = () => {
   return (
-    <div className= "bg-pyramids-img bg-cover flex flex-col items-center">
+    <div className= "text-white bg-space-img bg-cover flex flex-col items-center">
       <Head>
         <title>WEB DEV ANWAR</title>
         <meta name="description" content="my portfolio app content about me as a web developer" />
