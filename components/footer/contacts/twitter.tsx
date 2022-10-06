@@ -5,7 +5,7 @@ import Link from 'next/link'
 function Twitter() {
   return (
     <div className='p-2 m-2'>
-      <Link href="#">
+      <Link href="https://twitter.com/AnwarAhmed1979">
       <a >
       <span>Twitter</span>
       </a>

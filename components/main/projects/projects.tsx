@@ -2,11 +2,11 @@ import React from 'react'
 import "tailwindcss/tailwind.css"
 import Link from 'next/link'
 
-function Content() {
+function Projects() {
   return (
     <div className='  font-extrabold'>
         <h1 className='text-center border-b-2 py-2 m-2'>
-        Articles
+        Projects
         </h1>
         <div className='p-4 m-4'>
         <p >
@@ -53,4 +53,4 @@ function Content() {
   )
 }
 
-export default Content
+export default Projects

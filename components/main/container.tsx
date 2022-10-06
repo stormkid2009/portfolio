@@ -1,9 +1,9 @@
 import React from 'react'
 import "tailwindcss/tailwind.css"
-import ContentContainer from './content/container'
+import ProjectsContainer from './projects/container'
 import SkillsContainer from './skills/container'
 import AboutContainer from './about/container'
-//import SideBar from './sidebar'
+
 
 
 function MainContainer() {
@@ -11,7 +11,7 @@ function MainContainer() {
     <div className=' h-full w-full my-4 flex flex-col items-center justify-center p-4'>
         
         <AboutContainer />
-        <ContentContainer />
+        <ProjectsContainer />
         <SkillsContainer />
         
         

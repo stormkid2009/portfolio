@@ -14,7 +14,7 @@ import TailwindCSS from './tailwindcss'
 
 export default function SkillsContainer() {
   return (
-    <div className='flex flex-wrap justify-around font-mono font-extrabold h-full  shadow-2xl shadow-white p-4 m-4 rounded-3xl'>
+    <div id="skills-section"  className='flex flex-wrap justify-around font-mono font-extrabold h-full  shadow-2xl shadow-white p-4 m-4 rounded-3xl'>
         <HTML />
         <CSS />
         <JavaScript />
