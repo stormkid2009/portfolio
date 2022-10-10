@@ -4,8 +4,8 @@ import Link from 'next/link'
 
 function About() {
   return (
-    <div className='  p-4 m-4 text-center font-mono'>
-      <div className='py-3 border-b-2 mb-4 font-serif'>
+    <div className='   text-center '>
+      <div className='py-3 border-b-2 mb-4 font-extrabold text-orange-300'>
       <h1 className='pb-2'>
         Hi, I am Anwar  from EGYPT
         </h1>
@@ -17,8 +17,8 @@ function About() {
         <div className='pb-2 '>
         <p className='p-1'>
         
-        First time I touched the keyboard I realized  this is my passion and <br />
-        Amazing things can be done only with few lines of codes.
+        First time I touched the keyboard I realized  that <br />
+        Amazing things can be done only with few lines of code.
         </p>
         <p className='p-1'>
          The interface of   
@@ -31,27 +31,26 @@ function About() {
         </div>
         <div className='pb-2'>
         <p className='p-1'>
-          I am a teacher of french language for about 20 years. <br />
-          But the  dream of coding still live with me , <br />
-          Even the OS [operating system]  of my pc 
-          is  Ubuntu [Debian distro of linux]
+          Being  teacher of french language for about 20 years, <br />
+          Did not end my passion for coding  <br />
         </p>
         </div>
         <div className='pb-2'>
         <p className='p-1'>
-          After sometime with [visual basic] and [python] <br /> 
-          I focused my efforts on one language suitable <br />
-          with both front and back end <br /> so the best choice is <br /> 
-          [JavaScript]  to build the whole project
-          and get the experiance to manage debugging ,testing .... 
-
+          I tried for while  languages like <Link href="https://en.wikipedia.org/wiki/Visual_Basic_(classic)">
+            <a className='text-blue-600'>[Visual Basic 6]</a></Link> and 
+            <Link href="https://en.wikipedia.org/wiki/Python_(programming_language)"><a className='text-blue-600'> [Python]</a></Link>
+           <br /> 
+          But recently in 2020,I focused on studying web development track :<span className='text-blue-600'>[JavaScript],[HTML] and [CSS]</span> <br />
+          And gained more and more skills in Front end and Back end. <br /> 
         </p>
         </div>
         <div className='pb-2'>
         <p className='p-1'>
-          I am so happy with what I have learned and this give me more power to learn more
-          
+          Finally I am so happy with what I have learned and really excited to <br />
+          learn more technologies and contribute to the communtiy of tech.<br />
         </p>
+        
         </div>
         
     </div>

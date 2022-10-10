@@ -14,7 +14,11 @@ import TailwindCSS from './tailwindcss'
 
 export default function SkillsContainer() {
   return (
-    <div id="skills-section"  className='flex flex-wrap justify-around font-mono font-extrabold h-full  shadow-2xl shadow-white p-4 m-4 rounded-3xl'>
+      <div id="skills-section" className='shadow-2xl shadow-white rounded-3xl font-extrabold p-2 m-2'>
+        <div className='text-center font-mono text-orange-300  '>
+          <h1 className='border-b-2 p-4 m-4'>MY SKILLS</h1>
+        </div>
+    <div   className='flex flex-wrap justify-around font-mono  h-full   p-4 m-4 '>
         <HTML />
         <CSS />
         <JavaScript />
@@ -26,6 +30,7 @@ export default function SkillsContainer() {
         <MongoDB />
         <Git />
         <Ubuntu />
+    </div>
     </div>
   )
 }
