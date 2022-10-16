@@ -4,7 +4,7 @@ import About from './about'
 
 function AboutContainer() {
   return (
-    <div id="about-section" className='font-extrabold p-4 m-4 rounded-2xl shadow-2xl shadow-white w-3/4'>
+    <div id="about-section" className='font-extrabold p-4 m-4 rounded-2xl shadow-lg shadow-slate-400 w-3/4'>
         <About />
     </div>
   )

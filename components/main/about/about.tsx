@@ -22,7 +22,7 @@ function About() {
         </p>
         <p className='p-1'>
          The interface of   
-        <Link href='https://en.wikipedia.org/wiki/BASIC'><a className='text-blue-600'>  [ Basic ]  </a></Link>
+        <Link href='https://en.wikipedia.org/wiki/BASIC'><a className='text-gray-400'>  [ Basic ]  </a></Link>
         language was my window on this strange world , <br /> 
         Unfortunatly  the lack of resources
         available to learn at this time <br /> 
@@ -38,10 +38,10 @@ function About() {
         <div className='pb-2'>
         <p className='p-1'>
           I tried for while  languages like <Link href="https://en.wikipedia.org/wiki/Visual_Basic_(classic)">
-            <a className='text-blue-600'>[Visual Basic 6]</a></Link> and 
-            <Link href="https://en.wikipedia.org/wiki/Python_(programming_language)"><a className='text-blue-600'> [Python]</a></Link>
+            <a className='text-gray-400'>[Visual Basic 6]</a></Link> and 
+            <Link href="https://en.wikipedia.org/wiki/Python_(programming_language)"><a className='text-gray-400'> [Python]</a></Link>
            <br /> 
-          But recently in 2020,I focused on studying web development track :<span className='text-blue-600'>[JavaScript],[HTML] and [CSS]</span> <br />
+          But recently in 2020,I focused on studying web development track :<span className='text-gray-400'>[JavaScript],[HTML] and [CSS]</span> <br />
           And gained more and more skills in Front end and Back end. <br /> 
         </p>
         </div>
