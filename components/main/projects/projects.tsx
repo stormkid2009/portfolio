@@ -5,7 +5,7 @@ import Link from 'next/link'
 function Projects() {
   return (
     <div className='  font-extrabold'>
-        <h1 className='text-center border-b-2 py-2 m-2 text-orange-300 font-mono'>
+        <h1 className='text-center border-b-2 py-2 m-2 text-orange-600 font-mono'>
         My Projects
         </h1>
         <div className='p-4 m-4'>

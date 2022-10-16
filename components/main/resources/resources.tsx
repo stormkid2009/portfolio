@@ -5,7 +5,7 @@ import Link from 'next/link'
 function Resources() {
   return (
     <div>
-      <div className='border-b-2 p-2 text-center font-mono text-orange-300'>
+      <div className='border-b-2 p-2 text-center font-mono text-orange-600'>
       <h1>Golden Resources to learn </h1>
       </div>
         <div className='p-2 m-2'>

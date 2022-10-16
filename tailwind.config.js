@@ -12,6 +12,7 @@ module.exports = {
                 'space-img': "url('/space.jpg')",
                 })
     },
+    
   },
   plugins: [],
 }

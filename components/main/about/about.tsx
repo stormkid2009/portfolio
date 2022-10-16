@@ -5,7 +5,7 @@ import Link from 'next/link'
 function About() {
   return (
     <div className='   text-center '>
-      <div className='py-3 border-b-2 mb-4 font-extrabold text-orange-300'>
+      <div className='py-3 border-b-2 mb-4 font-extrabold text-orange-600'>
       <h1 className='pb-2'>
         Hi, I am Anwar  from EGYPT
         </h1>
