@@ -4,7 +4,7 @@ import Resources from './resources'
 
 function ResourcesContainer() {
   return (
-    <div id="resources-section" className=' font-extrabold p-6 m-6 rounded-2xl shadow-2xl shadow-white'>
+    <div id="resources-section" className=' font-extrabold p-6 m-6 rounded-2xl shadow-lg shadow-palette-shadow'>
         <Resources />
     </div>
   )

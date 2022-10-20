@@ -18,11 +18,11 @@ import Redux from './redux'
 
 export default function SkillsContainer() {
   return (
-      <div id="skills-section" className='shadow-2xl shadow-white rounded-3xl font-extrabold p-2 m-2'>
-        <div className='text-center  text-orange-300  '>
-          <h1 className='border-b-2 p-4 m-4'>MY SKILLS</h1>
+      <div id="skills-section" className='shadow-lg shadow-palette-shadow rounded-3xl font-extrabold p-2 m-2'>
+        <div className='text-center border-b-2 p-4 m-4   '>
+          <h1 className=' text-palette-heading'>MY SKILLS</h1>
         </div>
-    <div   className='flex flex-wrap justify-around   h-full   p-4 m-4 '>
+    <div   className='flex flex-wrap justify-left   h-full   p-4 m-4 '>
         <HTML />
         <CSS />
         <JavaScript />
