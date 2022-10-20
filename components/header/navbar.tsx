@@ -12,11 +12,26 @@ function Navbar() {
       </div>
       
       <div className="flex flex-row justify-around mt-5  flex-wrap text-palette-heading">
-          <Link href="#about-section" className="p-2 m-2"><a >ABOUT</a></Link>
-          <Link href="#resources-section" className="p-2 m-2"><a >RESOURCES</a></Link>
-          <Link href="#skills-section" className="p-2 m-2"><a >SKILLS</a></Link>
-          <Link href="#projects-section" className="p-2 m-2"><a >PROJECTS</a></Link>
-          <Link href="#contact-section" className="p-2 m-2"><a >CONTACT</a></Link>
+        <div className="p-2 m-2">
+
+          <Link href="#about-section" ><a > ABOUT</a></Link>
+        </div>
+        <div className="p-2 m-2">
+
+          <Link href="#resources-section" ><a > RESOURCES</a></Link>
+        </div>
+        <div className="p-2 m-2">
+
+          <Link href="#skills-section" ><a > SKILLS</a></Link>
+        </div>
+        <div className="p-2 m-2">
+
+          <Link href="#projects-section" ><a > PROJECTS</a></Link>
+        </div>
+        <div className="p-2 m-2">
+
+          <Link href="#contact-section" ><a > CONTACT</a></Link>
+        </div>
       </div>
     </div>
   )
