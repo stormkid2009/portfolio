@@ -8,7 +8,7 @@ import FooterContainer from '../components/footer/container'
 // {styles.container}
 const Home: NextPage = () => {
   return (
-    <div className= "text-white bg-space-img bg-cover flex flex-col items-center font-mono">
+    <div className= "text-palette-text bg-space-img bg-cover flex flex-col items-center font-mono">
       <Head>
         <meta name="description" content="my portfolio app content about me as a web developer" />
         
